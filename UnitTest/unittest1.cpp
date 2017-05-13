@@ -13,8 +13,10 @@ namespace UnitTest
 		TEST_METHOD(TestMethodAdd)
 		{
 			// TODO: テスト コードをここに挿入します
-			Assert::AreEqual(MyCalc::add(1, 2), 3);
-		}
+			Assert::AreEqual(MyCalc::add(1, 1), 2);
 
+
+
+		}
 	};
 }
