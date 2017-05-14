@@ -15,8 +15,10 @@ namespace UnitTest
 			// TODO: テスト コードをここに挿入します
 			Assert::AreEqual(MyCalc::add(1, 1), 2);
 
-
-
 		}
+
+
+
+
 	};
 }

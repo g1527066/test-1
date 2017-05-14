@@ -1,6 +1,8 @@
 #include "stdafx.h"
+#include <CppUnitTest.h>  
+#include "../libraryApplication/include/LibraryApplication.h"  
 #include "CppUnitTest.h"
-//#include "LibraryApplication.h"
+
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest2
@@ -9,14 +11,12 @@ namespace UnitTest2
 	{
 	public:
 		
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(TestMethodThreeMultiplication)
 		{
 			// TODO: テスト コードをここに挿入します
 			
-			///Assert::AreEqual(MyCalc2::ThreeMultiplication(2), 8);
+			Assert::AreEqual(MyCalc2::ThreeMultiplication(2), 8);
 		
-			Assert::AreEqual(8);
-
 		}
 
 	};
