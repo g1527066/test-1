@@ -17,7 +17,15 @@ namespace UnitTest
 
 		}
 
+			TEST_METHOD(TestMethodThreeMultiplication)
+			{
+				// TODO: テスト コードをここに挿入します
 
+				Assert::AreEqual(MyCalc2::ThreeMultiplication(2), 8);
+
+			}
+
+	
 
 
 	};

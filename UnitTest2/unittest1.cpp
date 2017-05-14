@@ -7,17 +7,17 @@ using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
 namespace UnitTest2
 {		
-	TEST_CLASS(UnitTest1)
-	{
-	public:
-		
-		TEST_METHOD(TestMethodThreeMultiplication)
-		{
-			// TODO: テスト コードをここに挿入します
-			
-			Assert::AreEqual(MyCalc2::ThreeMultiplication(2), 8);
-		
-		}
+	//TEST_CLASS(UnitTest1)
+	//{
+	//public:
+	//	
+	//	TEST_METHOD(TestMethodThreeMultiplication)
+	//	{
+	//		// TODO: テスト コードをここに挿入します
+	//		
+	//		Assert::AreEqual(MyCalc2::ThreeMultiplication(2), 8);
+	//	
+	//	}
 
-	};
+	//};
 }
